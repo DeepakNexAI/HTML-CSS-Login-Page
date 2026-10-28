@@ -1,0 +1,101 @@
+/* Step 1: Style the complete page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Step 2: Style the heading */
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 26px;
+}
+
+/* Step 3: Style the main box */
+.reg {
+    width: 400px;
+    max-width: 100%;
+    margin: 80px auto;
+    padding: 20px;
+    border: 2px solid chocolate;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 10px 25px rgba(128, 0, 128, 0.2);
+}
+
+/* Step 4: Style the labels */
+label {
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Step 5: Style the input fields */
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 2px solid chocolate;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Step 6: Add a focus effect */
+input:focus {
+    border-color: green;
+    background-color: #fffde7;
+}
+
+/* Step 7: Align the buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Step 8: Style the buttons */
+button {
+    flex: 1;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Step 9: Add a hover effect */
+button:hover {
+    background-color: green;
+    border-color: green;
+}
+
+/* Step 10: Style the Forgot Password link */
+.forgot {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot a {
+    color: purple ;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+    color: rgb(255,00,00);
+}
+
+/* Step 11: Adjust the layout for small screens */
+@media (max-width: 450px) {
+    .reg {
+        margin: 30px auto;
+    }
+}
